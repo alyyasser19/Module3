@@ -1,0 +1,135 @@
+body{
+    background-color: slategray;
+    font-family: 'Staatliches', cursive;
+    color: #fffefe;
+}
+
+*{
+    color: #f7f7f7;
+}
+#header-nav{
+    background-color: #222222;
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    color: #f7f7f7;
+
+}
+.navbar-brand h1{
+    font-size: 4.5em;
+    color: #f7f7f7 !important;
+    margin-left: 0.1em;
+
+    text-shadow: black 1px 1px 1px;
+}
+.navbar-brand:hover h1 {
+    color: #686868 !important;
+}
+#collapsable-nav{
+
+}
+.navbar-default .navbar-toggle {
+    border-color: #000000;
+    color: #f7f7f7 !important;
+}
+#nav-list{
+    margin-top: 10px;
+    text-align: center;
+}
+.navbar-header h1{
+    font-size: 4.5em;
+    color: #f7f7f7 !important;
+    margin-left: 0.1em;
+    font-family: 'Staatliches', cursive;
+    shadow: 2px 2px 2px 2px #686868 !important;
+}
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #f3f3f3;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-left: 21px;
+}
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #ffffff;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 55px;
+    border-color: #e7e7e7;
+    width: 100%;
+}
+.navbar-toggle{
+    padding: 13px 13px;
+}
+@media (max-width: 767px) {
+    .navbar-header h1{
+        font-size: 3.6em;
+        color: #f7f7f7 !important;
+        margin-left: 0.1em;
+        font-family: 'Staatliches', cursive;
+        shadow: 2px 2px 2px 2px #686868 !important;
+
+}
+
+    .navbar-brand p { /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }}
+    #head{
+        text-align: center;
+        font-size: 2.5em;
+    }
+#bood {
+    border: 1000px #f7f7f7;
+    background-color: #2b1a1a;
+    border: 1000px;
+    border-bottom: 10000px;
+    padding: 50px;
+    padding-bottom: 100000px;
+}
+@media (min-width: 1200px){
+    #header-nav{
+        height: 100px;
+    }
+   }
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 4px;
+        height: 100px;
+    }}
